@@ -8,11 +8,11 @@ from FileUtil import generate_filename
 #This is the script that does the image generation.
 #Below are ranges for the parameters;
 
-line_count = 50 # number of generated sine waves in each image
+line_count = 200 # number of generated sine waves in each image
 angle_range = (0, 360)
 phase_offset_range = (0, 360)
 magnitude_range = (1, 100)
-frequency_range = (20, 200)
+frequency_range = (1, 300)
 red_range = (0, 255)
 green_range = (0, 255)
 blue_range = (0, 255)
@@ -31,7 +31,7 @@ sw_phase_range = (0, 0)
 sw_magnitude_range = (0, 0)
 
 #Harmonic series
-harmonic_probability = 1
+harmonic_probability = 0
 harmonic_base_freq_range = (1, 5)
 harmonic_count_range = (5, 10)
 harmonic_decay = 0.6
